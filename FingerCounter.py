@@ -37,6 +37,7 @@ while True:
     # nếu phát hiện có bàn tay mới thực hiện
     if len(lmList) != 0:
         fingers = []
+        #  Khuyết điểm chỉ đúng với tay phải do chỉ đang xử lý ngón cái ở tay phải
         # Thumb  ngón cái chỉ có 1 khớp ID =3 nên chỉ tipIds[0] - 1 ,
         #  nếu cX của ID4 mà nhỏ hơn ID 3 có nghĩa là ngón cái đang gập xuống 0 (ko dùng y vì có khả năng gập ngón cái ngang)
         # bình thường ngón cái luôn chỉa ra ngoài nên x của ID4 > Id3
